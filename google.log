@@ -1,0 +1,79 @@
+
+REQUEST
+======
+Timestamp: Monday, 16-Nov-20 22:41:15 UTC
+======
+RemoteIP: 187.3.219.236:3967
+======
+UUID: 
+======
+GET / HTTP/1.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: pt-BR,pt;q=0.9
+Connection: keep-alive
+Dnt: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36
+
+
+======
+
+COOKIES
+======
+Timestamp: Monday, 16-Nov-20 22:41:15 UTC
+======
+RemoteIP: 187.3.219.236:3967
+======
+UUID: 
+======
+URL: http://google.com
+======
+
+======
+
+REQUEST
+======
+Timestamp: Monday, 16-Nov-20 22:41:15 UTC
+======
+RemoteIP: 187.3.219.236:3969
+======
+UUID: 
+======
+GET / HTTP/1.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: pt-BR,pt;q=0.9
+Connection: keep-alive
+Dnt: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36
+
+
+======
+
+COOKIES
+======
+Timestamp: Monday, 16-Nov-20 22:41:15 UTC
+======
+RemoteIP: 187.3.219.236:3969
+======
+UUID: 
+======
+URL: http://www.google.com
+======
+1P_JAR=2020-11-16-22; expires=Wed, 16-Dec-2020 22:41:15 GMT; path=/; domain=.google.com; Secure; SameSite=none
+======
+
+COOKIES
+======
+Timestamp: Monday, 16-Nov-20 22:41:15 UTC
+======
+RemoteIP: 187.3.219.236:3969
+======
+UUID: 
+======
+URL: http://www.google.com
+======
+1P_JAR=2020-11-16-22; expires=Wed, 16-Dec-2020 22:41:15 GMT; path=/; domain=.trdtransporte.com; ; SameSite=none
+======

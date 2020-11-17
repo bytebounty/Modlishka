@@ -29,4 +29,4 @@ awk '{printf "%s\\n", \$0}' /root/.acme.sh/_.REPLACE_WITH_DOMAIN.com/_.REPLACE_W
   \*\* MAKE SURE TO USE CA.cer for certPool field.
 
 #5
-sudo ./dist/proxy -config mercadolivre.json
+sudo ./dist/proxy -config templates/mercadolivre.json

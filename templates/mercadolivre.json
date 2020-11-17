@@ -4,7 +4,7 @@
   "proxyAddress": "",
   "target": "mercadolivre.com.br",
   "targetResources": "mercadolivre.com,accounts.google.com, mercadolibre.com",
-  "targetRules" : "aW50ZXJncml0eT0ic2hh,aW50ZXJncmlhdHk9InNoYQ==",
+  "targetRules" : "mfcRgiyjEWcGO/WFCaFq8JtASHjFBAfK0zIGsetAnhw=",
   "rules": "",
   "terminateTriggers": "",
   "terminateRedirectUrl": "",

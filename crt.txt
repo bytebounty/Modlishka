@@ -1,0 +1,50 @@
+#0
+git clone https://github.com/acmesh-official/acme.sh.git
+cd ./acme.sh
+./acme.sh --install
+
+#1
+acme.sh --issue --alpn -d trdtransporte.com -d *.trdtransporte.com  --dns \
+--yes-I-know-dns-manual-mode-enough-go-ahead-please
+
+#2
+acme.sh --renew --alpn -d trdtransporte.com -d *.trdtransporte.com  --dns  --yes-I-know-dns-manual-mode-enough-go-ahead-please
+
+
+[Tue Nov 17 14:23:26 UTC 2020] Cert success.
+-----BEGIN CERTIFICATE-----
+MIIFbzCCBFegAwIBAgISA2DF1U2O+kcF0rvdluiSvotbMA0GCSqGSIb3DQEBCwUA
+MEoxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MSMwIQYDVQQD
+ExpMZXQncyBFbmNyeXB0IEF1dGhvcml0eSBYMzAeFw0yMDExMTcxMzIzMjZaFw0y
+MTAyMTUxMzIzMjZaMBwxGjAYBgNVBAMTEXRyZHRyYW5zcG9ydGUuY29tMIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtUNH+HvdOn001qIQdntrRPoh1IJF
+lreCFv6CTXI5gyAxl/ypmQ4gQkEMjuYh9pNU62EzKfCTRhBC+LZgtOgTevVw5Zm9
+bxSrLZD4rr1pLaY/iqdOjGLDq0K9S7ZzPlnYQcfHIlpo9bFOwUqyK1glC5bc8q4v
+wtW3dA2ytjOpqWXP+yh8/9yt7mSF8EngPpas0jdUsM3qwjvQa3lvIOS2WZDmkfTV
+s+FTmR0lNb5SZXoKYYQhAeWx1oLOFCu5m0gayO0iUmG/skTdQRzFIqYd0fnzww3Y
+Mx+ZFMfI58/ieL1wPM/A89UBQC3gxRHAm7x014Ue8y9cG5E08lY9yK78tQIDAQAB
+o4ICezCCAncwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggr
+BgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBS0vJOiNoe8c0d9d0VkIiVP
+uWGqBjAfBgNVHSMEGDAWgBSoSmpjBH3duubRObemRWXv86jsoTBvBggrBgEFBQcB
+AQRjMGEwLgYIKwYBBQUHMAGGImh0dHA6Ly9vY3NwLmludC14My5sZXRzZW5jcnlw
+dC5vcmcwLwYIKwYBBQUHMAKGI2h0dHA6Ly9jZXJ0LmludC14My5sZXRzZW5jcnlw
+dC5vcmcvMDEGA1UdEQQqMCiCEyoudHJkdHJhbnNwb3J0ZS5jb22CEXRyZHRyYW5z
+cG9ydGUuY29tMEwGA1UdIARFMEMwCAYGZ4EMAQIBMDcGCysGAQQBgt8TAQEBMCgw
+JgYIKwYBBQUHAgEWGmh0dHA6Ly9jcHMubGV0c2VuY3J5cHQub3JnMIIBBAYKKwYB
+BAHWeQIEAgSB9QSB8gDwAHUARJRlLrDuzq/EQAfYqP4owNrmgr7YyzG1P9MzlrW2
+gagAAAF11pbE1QAABAMARjBEAiAFkCzVq2IubFKoPpYPsJJzWXmfeTLag/VCn9XP
+ORuf7gIgMxAU+FebLkDvu8yadxc1SKDYJH82Xwq/d5JrP325m5AAdwD2XJQv0Xcw
+IhRUGAgwlFaO400TGTO/3wwvIAvMTvFk4wAAAXXWlsTuAAAEAwBIMEYCIQCywhow
+JUmeq9IyZSnfgYNS4SLA2z+XOfrfqWWs6GNHPgIhAOJ/3COEVsNRawZeV5vU7XE6
+2pO1mrMbESTcL7BzfElmMA0GCSqGSIb3DQEBCwUAA4IBAQBShkCg+hfCs/DcmKTO
+5jFfZoqY7Vckv9TzbRuoS+ZzoZ+GgRp+d59WDKu1Rr2OazIBLwBPaZeeS6wwLWxB
+PpQNxqzJQ+OPosmbpIft63UwkkDztK7gUnSb2xWJl6alL2hFvYuS7UEJVvgdtEAz
+y7eQJSk2LNQU6+NB0kyFnOQxMBbq0fSq9MSinXPF6bNSjCbpgR4g/HR8/U/uqSom
+6iMGE73+Yay9WDDqtZPjTx1qlKiJhmKWZr8P6d73FdieUPg/L8EYM3Nz94L6d+yS
+CDpHoISyP+AlnhvU2YdMMj+wmLwdXYfeaNQY2P7p/wsq0ZJs3lN8bSuj2ohEcHis
+zqIp
+-----END CERTIFICATE-----
+[Tue Nov 17 14:23:26 UTC 2020] Your cert is in  /root/.acme.sh/trdtransporte.com/trdtransporte.com.cer
+[Tue Nov 17 14:23:26 UTC 2020] Your cert key is in  /root/.acme.sh/trdtransporte.com/trdtransporte.com.key
+[Tue Nov 17 14:23:26 UTC 2020] The intermediate CA cert is in  /root/.acme.sh/trdtransporte.com/ca.cer
+[Tue Nov 17 14:23:26 UTC 2020] And the full chain certs is there:  /root/.acme.sh/trdtransporte.com/fullchain.cer

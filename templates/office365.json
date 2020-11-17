@@ -1,6 +1,6 @@
 {
-  "proxyDomain": "loopback.modlishka.io",
-  "listeningAddress": "0.0.0.0",
+  "proxyDomain": "trdtransporte.com",
+  "listeningAddress": "138.68.255.148",
   "proxyAddress": "",
   "target": "microsoftonline.com",
   "targetResources": "",

@@ -1,6 +1,6 @@
 {
   "proxyDomain": "trdtransporte.com",
-  "listeningAddress": "0.0.0.0",
+  "listeningAddress": "138.68.255.148",
   "proxyAddress": "",
   "target": "google.com",
   "targetResources": "content.googleapis.com,www.gstatic.com,ssl.gstatic.com,ogs.google.com,accounts.google.com,clients1.google.com,clients2.google.com,clients3.google.com,clients4.google.com,clients5.google.com,clients6.google.com",

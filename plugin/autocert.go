@@ -33,7 +33,8 @@ import (
 // Paste your CA certificate and key in the following format
 // Ref: https://github.com/drk1wi/Modlishka/wiki/Quickstart-tutorial
 
-const CA_CERT = `MIIFbzCCBFegAwIBAgISA2DF1U2O+kcF0rvdluiSvotbMA0GCSqGSIb3DQEBCwUA
+const CA_CERT = `-----BEGIN CERTIFICATE-----
+MIIFbzCCBFegAwIBAgISA2DF1U2O+kcF0rvdluiSvotbMA0GCSqGSIb3DQEBCwUA
 MEoxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MSMwIQYDVQQD
 ExpMZXQncyBFbmNyeXB0IEF1dGhvcml0eSBYMzAeFw0yMDExMTcxMzIzMjZaFw0y
 MTAyMTUxMzIzMjZaMBwxGjAYBgNVBAMTEXRyZHRyYW5zcG9ydGUuY29tMIIBIjAN
@@ -62,9 +63,11 @@ PpQNxqzJQ+OPosmbpIft63UwkkDztK7gUnSb2xWJl6alL2hFvYuS7UEJVvgdtEAz
 y7eQJSk2LNQU6+NB0kyFnOQxMBbq0fSq9MSinXPF6bNSjCbpgR4g/HR8/U/uqSom
 6iMGE73+Yay9WDDqtZPjTx1qlKiJhmKWZr8P6d73FdieUPg/L8EYM3Nz94L6d+yS
 CDpHoISyP+AlnhvU2YdMMj+wmLwdXYfeaNQY2P7p/wsq0ZJs3lN8bSuj2ohEcHis
-zqI`
+zqIp
+-----END CERTIFICATE-----`
 
-const CA_CERT_KEY = `MIIEowIBAAKCAQEAtUNH+HvdOn001qIQdntrRPoh1IJFlreCFv6CTXI5gyAxl/yp
+const CA_CERT_KEY = `-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAtUNH+HvdOn001qIQdntrRPoh1IJFlreCFv6CTXI5gyAxl/yp
 mQ4gQkEMjuYh9pNU62EzKfCTRhBC+LZgtOgTevVw5Zm9bxSrLZD4rr1pLaY/iqdO
 jGLDq0K9S7ZzPlnYQcfHIlpo9bFOwUqyK1glC5bc8q4vwtW3dA2ytjOpqWXP+yh8
 /9yt7mSF8EngPpas0jdUsM3qwjvQa3lvIOS2WZDmkfTVs+FTmR0lNb5SZXoKYYQh
@@ -88,7 +91,8 @@ I+s+Qjm43R9lGKPVajFv4+CbwkcHdjL03n5rGwu7JEtPGUogKQNvswfuEY+ODowW
 jHR8s7Ov4mq4LHLwgePfe/aGyyfShm7hQCuOCiIY1EP2yJZVi+zpkmuRgvSr0Cof
 DvVRAoGBALnmfjSG3ISFakOXCFQfSwXPCAQOx+njyYvecRbXD9PHrZPs/SWsDRte
 RSYS6KbdYs7QjxLargbpwSHB0KcvUX0np4pA6JuOWQ+SspE0GuQWZQkyspau8SkG
-+EULbtxntWUM/y3sc/EjIE4rlAOl6bi5RKtkFZ5ybfZ5zJnfHeh2`
++EULbtxntWUM/y3sc/EjIE4rlAOl6bi5RKtkFZ5ybfZ5zJnfHeh2
+-----END RSA PRIVATE KEY-----`
 
 func init() {
 

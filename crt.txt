@@ -48,3 +48,6 @@ zqIp
 [Tue Nov 17 14:23:26 UTC 2020] Your cert key is in  /root/.acme.sh/trdtransporte.com/trdtransporte.com.key
 [Tue Nov 17 14:23:26 UTC 2020] The intermediate CA cert is in  /root/.acme.sh/trdtransporte.com/ca.cer
 [Tue Nov 17 14:23:26 UTC 2020] And the full chain certs is there:  /root/.acme.sh/trdtransporte.com/fullchain.cer
+
+https://medium.com/@saurabh6790/generate-wildcard-ssl-certificate-using-lets-encrypt-certbot-273e432794d7
+
